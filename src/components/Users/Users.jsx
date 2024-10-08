@@ -17,12 +17,12 @@ const Users = () => {
             <h2>Our users: {users.length}</h2>
             <h2>Our Users</h2>
             <div style={usersStyle}>
+
                 {
-                    users.map(user =><User
-                    
+                    users.map(user =><User                    
                     user={user}
-                    key={user.id}
-                    
+                    key={user.id}  
+                                      
                     ></User>)
                 }
             </div>
